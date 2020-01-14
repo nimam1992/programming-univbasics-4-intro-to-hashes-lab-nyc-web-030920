@@ -21,7 +21,7 @@ def my_hash_creator(key, value)
 end
 
 def read_from_hash(hash, key)
-  list = {hash}
+  list = {hash=>}
   list[key]
   # return the correct value using the hash and key parameters
 end
