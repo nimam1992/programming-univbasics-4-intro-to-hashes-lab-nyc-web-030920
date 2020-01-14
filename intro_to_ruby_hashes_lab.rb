@@ -14,6 +14,7 @@ end
 def id_generator
   hash = {key:'id'}
   hash['key'] = 'key'.object_id
+  hash
 end
 
 def my_hash_creator(key, value)
