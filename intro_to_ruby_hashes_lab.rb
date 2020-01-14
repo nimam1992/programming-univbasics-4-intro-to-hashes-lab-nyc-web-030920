@@ -13,7 +13,6 @@ end
 
 def id_generator
   hash = {key:1}
-  hash
 end
 
 puts id_generator
