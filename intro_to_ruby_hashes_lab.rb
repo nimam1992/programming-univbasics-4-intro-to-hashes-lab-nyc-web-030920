@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  hash = {:id.object_id}
+  hash = {:id.object_id=>}
 end
 
 puts id_generator
