@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  hash = {monkey:1}
+  hash = {'monkey':1}
 end
 
 def my_hash_creator(key, value)
