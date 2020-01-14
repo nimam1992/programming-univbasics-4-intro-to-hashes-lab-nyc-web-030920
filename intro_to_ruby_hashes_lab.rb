@@ -13,7 +13,8 @@ end
 
 def id_generator
   hash = {key:'id'}
-  hash['key'] = 'key'.object_id
+  x = 'key'.object_id
+  hash['key'] = x
   hash
 end
 
