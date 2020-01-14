@@ -17,6 +17,8 @@ end
 
 puts id_generator
 
+puts id_generator
+
 def my_hash_creator(key, value)
   hash = {key=>value}
 end
