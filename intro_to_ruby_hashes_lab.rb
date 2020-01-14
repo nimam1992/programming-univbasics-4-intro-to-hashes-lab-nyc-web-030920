@@ -12,7 +12,8 @@ def pioneer
 end
 
 def id_generator
-  hash = {key.object_id=>value}
+  x = :key.object_id
+  hash = {x=>}
 end
 
 def my_hash_creator(key, value)
