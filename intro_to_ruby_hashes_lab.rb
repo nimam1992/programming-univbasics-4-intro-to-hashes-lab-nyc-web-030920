@@ -14,11 +14,11 @@ end
 def id_generator
   hash = {key:'id'}
   x = 'key'.object_id
-  hash['key'] = x
+  hash[:key] = x
   puts hash
 end
 
-id_generator 
+id_generator
 
 def my_hash_creator(key, value)
   hash = {key=>value}
