@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  hash = {'key'=>'x'}
+  hash = {:key=>'x'}
   hash[key] = 1
 end
 
