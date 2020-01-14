@@ -15,7 +15,7 @@ def id_generator
   hash = {key:'id'}
   x = 'key'.object_id
   hash[:key] = x
-  puts hash
+  hash
 end
 
 id_generator
