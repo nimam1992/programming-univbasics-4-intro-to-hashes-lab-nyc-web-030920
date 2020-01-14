@@ -12,7 +12,7 @@ def pioneer
 end
 
 def id_generator
-  hash = {:key=>key.object_id}
+  hash = {'key'=>key.object_id}
   hash
 end
 
