@@ -22,7 +22,7 @@ end
 
 def read_from_hash(hash, key)
   list = {hash}
-  
+  list[key]
   # return the correct value using the hash and key parameters
 end
 
