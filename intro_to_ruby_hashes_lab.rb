@@ -12,12 +12,12 @@ def pioneer
 end
 
 def id_generator
-  hash = {key=>key.object_id}
+  hash = {key:value}
+  hash[key] = :key.object_value
 end
 
 def my_hash_creator(key, value)
-  hash = {key:id}
-  hash[key] = :key.object_id
+  hash = {key=>value}
 end
 
 def read_from_hash(hash, key)
