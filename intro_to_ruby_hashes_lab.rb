@@ -13,7 +13,7 @@ end
 
 def id_generator
   hash = {:key=>'x'}
-  hash[:key] = 1
+  hash[:key] = :key.object_id
 end
 
 def my_hash_creator(key, value)
